@@ -1,0 +1,23 @@
+{
+  "name": "gogoscrapper",
+  "version": "1.0.0",
+  "description": "gogo scrapper for anime",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "author": "N@rutO",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "axios": "^1.2.3",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "puppeteer": "^20.2.0"
+  }
+}
